@@ -14,8 +14,8 @@ spring:
           search-paths: wellcare-hub
   security:
     user:
-      name: welljr
-      password: <9LLW342'A
+      name: technoo
+      password: <9LLW342'AJR
 
 management:
   endpoint:
