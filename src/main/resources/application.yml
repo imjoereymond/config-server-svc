@@ -1,0 +1,28 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server-svc
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/imjoereymond/config-server-repo
+          clone-on-start: true
+          default-label: development
+  security:
+    user:
+      name: welljr
+      password: <9LLW342'A
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  security:
+    enabled: true
